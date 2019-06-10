@@ -31,7 +31,7 @@ dtparam=i2c1=on
 ```console
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install libssl-dev libffi-dev git python3 python3-dev python3-pip python3-pil python3-smbus -y
+sudo apt-get install libssl-dev libffi-dev git python3 python3-dev python3-pip python3-pil python3-smbus python3-rpi.gpio -y
 ```
 
 ## Install dependencies with pip
