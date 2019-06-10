@@ -38,6 +38,7 @@ sudo apt-get install libssl-dev libffi-dev git python python-dev python-pip pyth
 ```console
 sudo pip install Adafruit-SSD1306
 ```
+See https://github.com/adafruit/Adafruit_Python_SSD1306.
 
 ## Test
 Reboot your device with `sudo shutdown -r now`.
@@ -46,7 +47,7 @@ Then run the examples:
 ```console
 cd /tmp
 git git@github.com:plakna/raspberry-pi-oled-display-ssd1306.git
-cd examples
+cd raspberry-pi-oled-display-ssd1306/examples
 
 python animate.py
 python buttons.py
