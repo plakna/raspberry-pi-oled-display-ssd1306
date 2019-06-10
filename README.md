@@ -31,12 +31,12 @@ dtparam=i2c1=on
 ```console
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install libssl-dev libffi-dev git python python-dev python-pip python-pil python-smbus -y
+sudo apt-get install libssl-dev libffi-dev git python3 python3-dev python3-pip python3-pil python3-smbus -y
 ```
 
 ## Install dependencies with pip
 ```console
-sudo pip install Adafruit-SSD1306
+sudo python3 -m pip install Adafruit-SSD1306
 ```
 See https://github.com/adafruit/Adafruit_Python_SSD1306.
 
@@ -46,12 +46,12 @@ Reboot your device with `sudo shutdown -r now`.
 Then run the examples:
 ```console
 cd /tmp
-git git@github.com:plakna/raspberry-pi-oled-display-ssd1306.git
+git clone git@github.com:plakna/raspberry-pi-oled-display-ssd1306.git
 cd raspberry-pi-oled-display-ssd1306/examples
 
-python animate.py
-python buttons.py
-python image.py
-python shapes.py
-python stats.py
+python3 animate.py
+python3 buttons.py
+python3 image.py
+python3 shapes.py
+python3 stats.py
 ```
